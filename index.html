@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Room homepage</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  
+</head>
+<body>    
+
+  <header>
+    <div class="main-head">
+      <div class="open">
+        <img src="./images/icon-hamburger.svg" alt="">
+      </div>
+
+      <div class="logo">
+        <img src="./images/logo.svg" alt="">
+      </div>
+    </div>
+
+    <nav> 
+      <div class="container">
+        <div class="close">
+         <img src="./images/icon-close.svg" alt="">
+        </div>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="slide">
+
+      <div class="img-container">
+        <div class="images">
+          <picture>
+            <source media="(min-width: 600px )" srcset="./images/desktop-image-hero-1.jpg">
+
+            <img src="./images/mobile-image-hero-1.jpg" alt="">
+          </picture>
+
+          <picture>
+            <source media="(min-width: 600px )" srcset="./images/desktop-image-hero-2.jpg">
+            <img src="./images/mobile-image-hero-2.jpg" alt="">
+          </picture>
+         
+          
+          <picture>
+            <source media="(min-width:600px )" srcset="./images/desktop-image-hero-3.jpg">
+            <img src="./images/mobile-image-hero-3.jpg" alt="">
+          </picture>
+        </div>
+
+        <div class="change-slide">
+         <button> <img class="prev" src="/images/icon-angle-left.svg" alt=""></button>
+          <button><img class="next" src="/images/icon-angle-right.svg" alt=""></button>
+        </div>
+        <article class="article-1">
+
+          <h2></h2>
+          
+      
+          <p></p>
+      
+          <button class="shopnow">
+            <a href="Page-Content"><span>Shop now</span> <img src="./images/icon-arrow.svg" alt=""></a>
+          </button>
+      
+        </article>
+      </div>
+      
+
+      
+    </div>
+  </header>
+  
+
+ 
+  
+  <section>
+    <img src="./images/image-about-dark.jpg" alt="">
+
+    <article class="article-2">
+      <h2>About our furniture</h2>
+
+      <p>
+        Our multifunctional collection blends design and function to suit your individual taste.
+        Make each room unique, or pick a cohesive theme that best express your interests and what
+        inspires you. Find the furniture pieces you need, from traditional to contemporary styles
+        or anything in between. Product specialists are available to help you create your dream space.
+      </p>
+
+    </article>
+
+    <img src="./images/image-about-light.jpg" alt="" class="img-2"> 
+  </section>
+<div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://linkedin.com/in/david-ogaranya-enomah-133b60223">David Enomah</a>.
+  </div>
+ </body>
+
+<script src="classes.js"></script>
+<script src="script.js"></script>
+</html>
